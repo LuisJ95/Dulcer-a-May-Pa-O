@@ -92,7 +92,7 @@ body {
     display: flex;
     position: absolute;
     top: 25px;
-    z-index: -1;
+    z-index: -3;
 }
 
 
@@ -576,8 +576,8 @@ h2.logo {
     .top-nav-bar:before {
         *display: none;
     }
-    .top-nav-bar::after {
-        *display: none;
+    .top-nav-bar img {
+        display: none;
     }
     .search-box {
         width: 100%;
