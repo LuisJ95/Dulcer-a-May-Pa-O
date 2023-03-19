@@ -137,10 +137,12 @@ body {
     width: 60%;
 }
 
-.logo {
-    height: 45px;
-    margin: 5px 10px;
-    *width: 650px;
+.logo img {
+    position: sticky;
+    width: 450px;
+    height: 150px;
+    z-index: 3;
+    padding: 25px;
 }
 
 h2.logo {
