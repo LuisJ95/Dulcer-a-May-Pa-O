@@ -302,7 +302,7 @@ h2.logo {
 }
 
 .title-box h2 {
-    font-size: 24px;
+    font-size: large;
 }
 
 .title-box::after {
