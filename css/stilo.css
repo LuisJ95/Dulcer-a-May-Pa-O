@@ -74,6 +74,8 @@ body {
     z-index: 2;
 }
 
+
+/*
 .top-nav-bar:before {
     content: "";
     position: absolute;
@@ -84,7 +86,7 @@ body {
     background: #FEFEFE;
     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
     opacity: 0.2;
-}
+}*/
 
 .top-nav-bar img {
     height: 100px;
@@ -577,7 +579,7 @@ h2.logo {
         *display: none;
     }
     .top-nav-bar img {
-        display: none;
+        width: 100%;
     }
     .search-box {
         width: 100%;
